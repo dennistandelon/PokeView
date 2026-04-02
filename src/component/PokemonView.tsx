@@ -21,7 +21,7 @@ export default function PokemonView(){
 
     useEffect(()=>{
         getPokemon();
-    },);
+    },[]);
 
     const handleNext = ()=>{
         if(header?.next != null){
